@@ -1094,13 +1094,18 @@ body {
     gap: 30px;
   }
   .portfolio-overlay-text {
-    font-size: clamp(40px, 15vw, 100px);
-    top: 5%;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #999;
+    top: auto;
     position: relative;
     transform: none;
     left: auto;
     text-align: center;
     margin-bottom: 30px;
+    text-shadow: none;
   }
   .img-left, .img-center, .img-right {
     transform: none;
