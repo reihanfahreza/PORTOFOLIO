@@ -402,8 +402,7 @@ body {
   width: 100vw;
   overflow: hidden;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: calc(-50vw + 50%);
   padding: 20px 0;
 }
 
@@ -997,10 +996,11 @@ body {
     flex-wrap: wrap;
   }
   .profile-dropdown-card {
+    position: fixed;
     right: 5%;
     left: 5%;
     width: 90%;
-    top: 70px;
+    top: 80px;
   }
   
   /* Hero */
@@ -1055,7 +1055,7 @@ body {
     align-items: center;
   }
   .dark-blob-card {
-    border-radius: 40px;
+    border-radius: 30px 100px 30px 80px;
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -1186,6 +1186,8 @@ body {
     gap: 20px;
   }
   .footer-huge-text {
-    font-size: clamp(60px, 20vw, 150px);
+    font-size: clamp(50px, 16vw, 120px);
+    letter-spacing: -5px;
+    margin-bottom: -25px;
   }
 }
